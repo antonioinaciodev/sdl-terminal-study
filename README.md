@@ -45,10 +45,10 @@ sudo apt install build-essential git cmake libx11-dev libxext-dev libxrandr-dev 
 
 ## 🚀 Como Compilar e Executar
 
-1. Clone este repositório para o sistema de arquivos do Linux (ex: `~/workspace/terminal-and-shell`) para garantir a máxima performance:
+1. Clone este repositório para o sistema de arquivos do Linux (ex: `~/workspace/sdl-terminal-study`) para garantir a máxima performance:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/terminal-and-shell.git](https://github.com/SEU_USUARIO/terminal-and-shell.git)
-   cd terminal-and-shell
+   git clone https://github.com/antonioinaciodev/sdl-terminal-study.git
+   cd sdl-terminal-study
    ```
 
 2. Compile o código-fonte linkando as bibliotecas do SDL3 e utilitários POSIX:
@@ -65,7 +65,10 @@ sudo apt install build-essential git cmake libx11-dev libxext-dev libxrandr-dev 
    ```bash
    ./main
    ```
-   
+5. Monitorar terminal.txt:
+   ```bash
+   watch -n 0.25 cat terminal.txt
+   ```
 ---
 
 ## 🛠️ Tecnologias Utilizadas
